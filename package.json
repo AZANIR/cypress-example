@@ -1,0 +1,20 @@
+{
+  "name": "cypress-example-project",
+  "version": "1.0.1",
+  "description": "Running and Monitoring Cypress tests with TESTOMATIO Reporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "TESTOMATIO_URL=https://beta.testomat.io TESTOMATIO=tstmt_Hza8N0HTMaUQFuN2JbJ_zNZoA9mWLVNA9g1744715222 npx cypress run"
+  },
+  "keywords": [
+    "e2e",
+    "testomatio",
+    "cypress"
+  ],
+  "author": "davert, mihaylukvv",
+  "license": "ISC",
+  "devDependencies": {
+    "@testomatio/reporter": "1.6.15",
+    "cypress": "^12.17.1"
+  }
+}
